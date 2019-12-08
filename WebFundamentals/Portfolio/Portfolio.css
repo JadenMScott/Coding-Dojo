@@ -1,0 +1,184 @@
+ head{
+    background-color: aliceblue;
+    margin:0px auto;
+    outline: 1px solid red;
+}
+.header{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    color: black;
+    width: 825px;
+    font-family: 'Comic Sans MS';
+    background-color: gray;
+    margin-right:-5px;
+    margin-left:10px;
+}
+.header1{
+    display: inline-block;
+    background-color:white;
+    vertical-align: top;
+    color:black;
+    display: inline-block;
+    font-size: 30px;
+    background-color: gray;
+    height: 120px;
+    padding-top:50px;
+    padding-right: 8px;
+}
+img{
+    height:410px;
+    width: 625px;
+    margin-left:10px;
+    margin-top:10px;
+}
+body{
+    outline: 1px solid plum; 
+    vertical-align: left;
+    background-color: rgb(46, 3, 46);
+    background-image:radial-gradient(rgb(121, 78, 100));
+}
+div.about{
+    background-color:white;
+    font: 50px;
+    vertical-align: top;
+    display: inline-block;
+    width: 625px;
+    margin: 10px; 
+    padding-top:8px
+
+}
+div.about h1{
+    background-color: gray;
+    color:white;
+}
+div.LaMode{
+    background-color:white;
+    font: 30px;
+    vertical-align: top;
+    width: 405px;
+    margin: 10px;
+    display: inline-block;
+}
+div.LaMode h1{
+    background-color: gray;
+    color: white;
+}
+div.LaMode h2{
+    background-color:gray;
+    color: white;
+}
+div.LaMode img{
+    width: 405px;
+    margin-left:0px;
+}
+div.LaModeTechnology img{
+    width: 50px;
+    height: 50px;
+}
+div.LaMode p{
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    background-color: green;
+    padding: 20px;
+    width:150px;
+    height:20px;
+    margin-left:90px;
+}
+div.Family{
+    background-color: white;
+    font: 30px;
+    vertical-align: top;
+    width: 405px;
+    margin: 10px;
+    display: inline-block;
+}
+div.Family h1{
+    background-color: gray;
+    color: white;
+}
+div.Family h2{
+    background-color: gray;
+    color: white;
+}
+div.Family img{
+    width:405px;
+    margin-left: 0px;
+}
+div.FamilyTechnology img{
+    width: 50px;
+    height: 50px;
+}
+div.Family p{
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    background-color: green;
+    padding: 20px;
+    width:150px;
+    height:20px;
+    margin-left:90px;
+}
+div.fiveEleven{
+    background-color: white;
+    font: 20px;
+    vertical-align: top;
+    width:405px;
+    margin:10px;
+    display: inline-block;
+}
+div.fiveEleven h1{
+    background-color: gray;
+    color: white;
+}
+div.fiveEleven h2{
+    background-color: gray;
+    color: white;
+}
+div.fiveEleven img{
+    width: 405px;
+    margin-left:0px;
+}
+div.fiveElevenTechnology img{
+    width: 50px;
+    height: 50px;
+}
+div.fiveEleven p{
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    background-color: green;
+    padding: 20px;
+    width:150px;
+    height:20px;
+    margin-left:90px;
+}
+div.Icons img{
+    width: 50px;
+    height: 50px;
+}
+div.SocialMedia{
+    background-color:white;
+
+}
+div.SocialMedia h4{
+    background-color: white;
+    color: black;
+    display: block;
+    text-align: center;
+}
+div.SocialMedia p{
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: block;
+    text-underline-position: below;
+    display: inline-block;
+}
+div.SocialMedia img{
+    padding-inline-start:170px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
