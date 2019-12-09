@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jQueryfunctions.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('button.fade_out').click(function(){
+                    $('h1.txt').fadeOut();
+                });
+                $('button.fade_in').click(function(){
+                    $('h1.txt').fadeIn();
+                });
+                $('h1.txt').click(function(){
+                    $(this).text("This has been changed");
+                });
+                $('button.un_c').click(function(){
+                    $('.mid').fadeOut();
+                });
+                $('button.c').click(function(){
+                    $('.mid').fadeIn();
+                });
+                $('button.bfr').click(function(){
+                    $('h1.txt').before("<h1>before</h1>");
+                });
+                $('button.aft').click(function(){
+                    $('h1.txt').after("<h1>after</h1>");
+                });
+                $('.top img').click(function(){
+                    $(this).attr("src", "images/HelloWorld.jpg");
+                });
+                $('h1.color').click(function(){
+                    $('.mid input').val("Be sure to drink your ovaltine!");
+                });
+                $('h1.fun').click(function(){
+                    $(this).html("Completed Change");
+                });
+            });
+        </script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1 class="txt">Click to change text</h1>
+            
+            <img src="images/c5f1d163-e576-484b-93cb-c4ac3aebb053-medium.jpg" alt="Top Pic2">
+            <button class="fade_out">Fade Out</button>
+            <button class="fade_in">Fade In</button>
+        </div>
+        <div class="mid">
+            <h1 class="color">Change below value</h1>
+            <input type="text">
+            <h1>Mundane Text... Just here</h1>
+            <h1>Clutter</h1>
+            <img class="hw" src="images/HelloWorld.jpg" alt="Mid Pic2">
+            <button class="bfr">Before</button>
+            <button class="aft">After</button>
+            <img src="images/HelloWorld.jpg" alt="Mid Pic">
+            <img src="images/HelloWorld.jpg" alt="Bottom Pic">
+            <h1 class="fun">more fun: click to change html</h1>
+        </div>
+        <div class="bottom">
+            <button class="un_c">Unclutter</button>
+            <button class="c">Re-clutter</button>
+        </div>
+    </div>
+</body>
+</html>
