@@ -1,0 +1,11 @@
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\obj\Debug\netcoreapp2.2\FundamentalsI.csprojAssemblyReference.cache
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\obj\Debug\netcoreapp2.2\FundamentalsI.csproj.CoreCompileInputs.cache
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\obj\Debug\netcoreapp2.2\FundamentalsI.AssemblyInfoInputs.cache
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\obj\Debug\netcoreapp2.2\FundamentalsI.AssemblyInfo.cs
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\bin\Debug\netcoreapp2.2\FundamentalsI.deps.json
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\bin\Debug\netcoreapp2.2\FundamentalsI.runtimeconfig.json
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\bin\Debug\netcoreapp2.2\FundamentalsI.runtimeconfig.dev.json
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\bin\Debug\netcoreapp2.2\FundamentalsI.dll
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\bin\Debug\netcoreapp2.2\FundamentalsI.pdb
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\obj\Debug\netcoreapp2.2\FundamentalsI.dll
+C:\Users\jscot\Desktop\Coding_Dojo\C#Stack\Language_\FundamentalsI\obj\Debug\netcoreapp2.2\FundamentalsI.pdb
