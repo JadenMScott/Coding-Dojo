@@ -1,0 +1,9 @@
+body{ 
+}
+.box1{
+    /* background-color:{{ color}}; */
+    display: inline-block;
+    margin:20px;
+    padding:50px;
+    text-emphasis: none;
+}
