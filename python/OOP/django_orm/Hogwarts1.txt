@@ -1,0 +1,16 @@
+
+MODIFIED SQL
+INSERT INTO Hogwarts (name, house, pet, year) VALUES ('Draco Malfoy','Slytherin','Unknown','5');
+INSERT INTO Hogwarts (name, house, pet, year) VALUES ('Luna Lovegood','Ravenclaw','None','4');
+INSERT INTO Hogwarts (name, house, pet, year) VALUES ('Padma Patil','Ravenclaw','None','5');
+SELECT * FROM Hogwarts WHERE id = 1;copy
+SELECT * FROM Hogwarts WHERE house = 'Gryffindor';
+UPDATE Hogwarts SET year = '6' WHERE id = 1;
+
+MODIFIED ORM
+Hogwarts.objects.create(name="Harry Potter", house="Gryffindor", pet="Hedwig", year="5")
+Hogwarts.objects.create(name="Hermione Granger", house="Gryffindor", pet="Crookshanks", year="5")
+ravenclaws = Hogwarts.objects.filter(house="Ravenclaw")
+luna = Hogwarts.objects.get(name="Luna Lovegood")
+luna.year = 5
+luna.save()
