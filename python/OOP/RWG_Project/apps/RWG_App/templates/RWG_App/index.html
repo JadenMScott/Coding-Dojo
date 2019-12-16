@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'RWG_App/css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Yeehaw</h1>
+    <form action="/generate" method ="post">
+        {% csrf_token %}
+        <button name ="butt" value="true">Generate!</button>
+    </form>
+    <h1>{{request.session.word}}</h1>
+    <h1>Attempt number:{{request.session.counter}}</h1>
+    <a href="/clear">Start over?</a>
+</body>
+</html>

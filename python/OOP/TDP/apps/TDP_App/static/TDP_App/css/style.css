@@ -1,0 +1,8 @@
+h1{
+    top:50%;
+    left:50%;
+
+}
+body{
+    background-image: radial-gradient(rgb(94, 94, 255),rgb(100, 226, 188),rgba(153, 0, 255, 0)); 
+}
